@@ -1,5 +1,5 @@
 {
-  "name": "study-helper-tmp",
+  "name": "study-helper",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,20 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^13.4.6",
+    "katex": "^0.18.10",
+    "lucide-react": "^1.49.0",
     "next": "16.3.8",
+    "next-themes": "^0.4.6",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "react-markdown": "^10.1.0",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0",
+    "tailwind-merge": "^3.7.0",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
